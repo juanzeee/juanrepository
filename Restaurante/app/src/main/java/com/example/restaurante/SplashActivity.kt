@@ -21,7 +21,7 @@ class SplashActivity : AppCompatActivity() {
             j.putExtras(i)
             // Inicia o Activity
             startActivity(j)
-            // Coloca um atraso de 2000 milissegundos (2 segundos) antes de iniciar o PedidoActivity
+            // Coloca um atraso de 2000 milissegundos antes de iniciar o PedidoActivity
         },2000)
 
     }
