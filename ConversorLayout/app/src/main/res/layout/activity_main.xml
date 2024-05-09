@@ -7,13 +7,6 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="50dp"
-        android:id="@+id/textNomeTurma"
-        android:gravity="center"
-        android:text="Juan \n 1204"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
