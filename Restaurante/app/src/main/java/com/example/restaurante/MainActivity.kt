@@ -56,7 +56,7 @@ class MainActivity : AppCompatActivity() {
                 binding.textPrecoPizza.visibility = View.GONE
             }
         }
-        // Define um botão clicável para o checkbox (caixa de seleção) da salada.
+        // Define um botão clicável para o checkbox da salada.
         binding.checkSalada.setOnClickListener {
 
             if(binding.checkSalada.isChecked()){
@@ -70,7 +70,7 @@ class MainActivity : AppCompatActivity() {
                 binding.textPrecoSalada.visibility = View.GONE
             }
         }
-        // Define um botão de clique para o checkbox (caixa de seleção) do Hambúrguer.
+        // Define um botão de clique para o checkbox do Hambúrguer.
         binding.checkHamburger.setOnClickListener {
 
             if(binding.checkHamburger.isChecked()){
