@@ -27,7 +27,7 @@ class PedidoActivity : AppCompatActivity() {
                 "Salada: $quantidadeSalada Preço: ${quantidadeSalada*10}\n" +
                 "Hamburguer: $quantidadeHamburguer Preço: ${quantidadeHamburguer*12}\n"
 
-        // Atribui o texto do "Resumo do Pedido" na variável
+        // Atribui o texto do "Resumo do Pedido" na var
         binding.textResumo.text = texto
 
     }
