@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
        // Passa o username do intent
         val username = intent.extras?.getString("username")
 
-        // Exibe uma mensagem de saudação se o username não for nulo ou vazio
+        // Exibe uma mensagem de saudação se o username não for vazio
         if(!username.isNullOrEmpty()){
             binding.textOla.setText("Olá, $username")
         }
